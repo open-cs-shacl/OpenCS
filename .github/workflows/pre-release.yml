@@ -9,7 +9,7 @@ jobs:
   pre-release:
     name: "Pre-release"
     runs-on: "ubuntu-latest"
-    container: ghcr.io/aleksanderzawisza/ci-worker:main
+    container: ghcr.io/open-cs-shacl/ci-worker:main
 
     steps:
       - name: Checkout repository
@@ -41,8 +41,8 @@ jobs:
           SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
         with:
           source-directory: 'output_files'
-          destination-github-username: 'aleksanderzawisza'
-          destination-repository-name: 'aleksanderzawisza.opencs.github.io'
+          destination-github-username: 'open-cs-shacl'
+          destination-repository-name: 'open-cs-shacl.github.io'
           user-name: ci-worker
           target-directory: /releases/latest
           target-branch: main
