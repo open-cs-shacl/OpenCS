@@ -51,7 +51,7 @@ ocsh:NonRootsHaveSingleBroaderRule
 	) .
 
 ocsh:NoCyclesRule
-	a sh:NodeShape ;
+    a sh:NodeShape ;
 	sh:targetClass skos:Concept  ;
     sh:message "The skos:broader hierarchy should not contain cycles" ;
 	sh:property [
