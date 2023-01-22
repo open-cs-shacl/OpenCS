@@ -55,6 +55,6 @@ ocsh:NoCyclesRule
 	sh:targetClass skos:Concept  ;
     sh:message "The skos:broader hierarchy should not contain cycles" ;
 	sh:property [
-		sh:path  ([sh:oneOrMorePath skos:broader] skos:prefLabel);
-		sh:disjoint skos:prefLabel;
+		sh:path  ([sh:oneOrMorePath skos:broader] skos:prefLabel) ;
+		sh:disjoint skos:prefLabel ;
 	] .
