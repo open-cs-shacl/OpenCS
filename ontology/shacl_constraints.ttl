@@ -10,7 +10,7 @@
 <https://w3id.org/ocs/shacl/constraints.shacl>
     rdf:type owl:Ontology ;
     rdfs:comment "SHACL constraints for the OpenCS ontology" ;
-	rdfs:label "OpenCS SHACL"@en .
+    rdfs:label "OpenCS SHACL"@en .
 
 ocsh:SinglePrefLabelPerLanguageRule
 	a sh:NodeShape ;
