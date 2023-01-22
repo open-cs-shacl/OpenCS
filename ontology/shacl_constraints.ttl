@@ -46,7 +46,7 @@ ocsh:NonRootsHaveSingleBroaderRule
 			]
 		]
 		[
-		    sh:node ex:RootRule ;
+		    sh:node ocsh:RootRule ;
 		]
 	) .
 
